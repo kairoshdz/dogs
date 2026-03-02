@@ -40,8 +40,7 @@ function createSlideshow(images) {
         <div class = "slide" style="background-image: url('${images[1]}')"></div>
         `
 
-    currentPosition+= 2
-    if (currentPosition == 2) currentPosition = 0
+    currentPosition = 2
 
     timer = setInterval(nextSlide, 3000)
     } else {
